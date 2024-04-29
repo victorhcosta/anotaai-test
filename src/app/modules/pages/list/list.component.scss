@@ -1,0 +1,30 @@
+.container {
+  min-height: 100vh;
+  background-color: var(--body-bg-color);
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-block: 20px;
+  margin-inline: 1vw;
+  width: 90%;
+
+  &__input {
+    width: 75%;
+    border: none;
+  }
+
+  &__button {
+    border: 0.1px solid rgba(127, 127, 127, 0.5);
+    background-color: #FFF;
+    cursor: pointer;
+  }
+}
+
+.card-list {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

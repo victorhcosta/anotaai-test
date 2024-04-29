@@ -1,27 +1,21 @@
-# Front
+# Angular Front-End Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+This project is an Angular application developed to demonstrate advanced skills in creating SPA (Single Page Application) using Angular.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Dynamic card visualization.
+- Card filtering and removal.
+- Modular architecture with lazy loading.
 
-## Code scaffolding
+## Quick Start
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To run this project locally, follow the instructions in [INSTALLATION.md](./documents/INSTALLATION.md).
 
-## Build
+## Project Structure
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+For a detailed view of the architecture, see [ARCHITECTURE.md](./documents/ARCHITECTURE.md).
 
-## Running unit tests
+## Testing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Instructions for running and writing tests can be found in [TESTING.md](./documents/TESTING.md).

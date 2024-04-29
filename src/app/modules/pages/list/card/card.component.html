@@ -1,0 +1,30 @@
+<section class="card">
+  <header class="card__header">
+    <span class="card__header--relative">
+      <img class="card__image-header" [src]="content?.img" [alt]="content?.title + ' imagem'">
+
+      <span
+        class="card__badge"
+        [class.card__badge--landscape]="content?.type === '1'"
+        [class.card__badge--flower]="content?.type === '2'"
+        [class.card__badge--pizza]="content?.type === '3'"
+      >
+        @switch (content?.type) {
+          @case ('1') {Paisagem}
+          @case ('2') {Flor}
+          @case ('3') {Pizza}
+        }
+      </span>
+    </span>
+
+    <button class="button-close" (click)="remove()">
+      <img class="button-close__icon" src="assets/svg/close.svg" alt="remover item" />
+    </button>
+  </header>
+  <h1 class="card__title">
+    {{ content?.title }}
+  </h1>
+  <p class="card__content">
+    {{ content?.description }}
+  </p>
+</section>
